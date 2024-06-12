@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - ask_gpt
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_affirm:
+    - text: "Glad to hear that."
+
+  utter_deny:
+    - text: "No worries."
+
+actions:
+  - action_query_gpt
+
+
